@@ -10,9 +10,9 @@ fn main() {
 
     let y = 3;
 
-    if (y % 2 ==0){
+    if y % 2 ==0{
         println!("its even");
-    } else if (y % 2 != 0){
+    } else if y % 2 != 0{
         println!("its odd");
     } else {
         println!("its weird");
