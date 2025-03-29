@@ -26,4 +26,13 @@ fn main() {
         println!("{}", i);
         i+=1;
     }
+
+    let ab = 5;
+    let mut bb = 0;
+    
+    for i in 1..ab+1{
+        bb = bb+i;
+    }
+
+    println!("the sum is {}", bb);
 }
